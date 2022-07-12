@@ -1,3 +1,12 @@
+body{
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
 /* Here is the header section */
 
 .header{
@@ -74,8 +83,126 @@ li{
   color: white;
 }
 
+/* here it's the second content section */
+
+.content2{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: rgb(101, 6, 4);;
+}
+
+.albums{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 36px;
+  gap: 72px;
+}
+
+.tayalbums{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 36px;
+  font-size: 55px;
+}
+
+.imagetext{
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: auto;
+}
+
+.foto{
+  display: flex;
+  width: 250px;
+  height: auto;
+  border: 5px solid; 
+  border-color: rgb(101, 6, 4);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sometext{
+  display: flex;
+  width: 265px;
+  height: auto;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+}
+
+/* here it's the third content section */
+
+.content3{
+  display: flex;
+  flex-direction: column;
+  padding: 200px 300px;
+  gap: 20px;
+  color: white;
+  background-color: rgb(185, 153, 130);
+}
+
+.phrase{
+  font-size: 55px;
+  text-align: left;
+}
+
+.goldrush{
+  font-size: 30px;
+  text-align: right;
+}
+
+/*here it's the forth content section */
+
+.content4{
+  display: flex;
+  background-color: white;
+  padding: 100px 200px;
+  justify-content: center;
+}
+
+.blue{
+  display: flex;
+  background-color: rgb(139, 104, 78);
+  color: white;
+  gap: 200px;
+  padding: 50px 100px;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.doubt{
+  font-size: 45px;
+}
+
+.listen{
+  font-size: 25px;
+}
+
+.playlist{
+  width: fit-content;
+  height: fit-content;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: white;
+  color: white;
+  background-color: rgb(139, 104, 78);
+}
+
+/* here it's the footer */
+
 .footer{
   display: flex;
   background-color: rgb(156, 27, 21);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 40px;
+  font-size: 20px;
 }
-
